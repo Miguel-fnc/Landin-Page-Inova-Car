@@ -12,7 +12,6 @@ body {
     box-sizing: border-box;
     background: rgba(77, 77, 77, 0.858);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.666);
-    position: fixed;
 }
 
 .logo {
@@ -220,4 +219,39 @@ body {
     text-align:center;
 
     padding:1rem;
+}
+
+
+/*PAGINA DE PRODUCTOS*/
+
+.productos{
+    margin-top:6rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:2rem;
+}
+
+.carousel{
+    width:50rem;
+    height:25rem;
+    overflow:hidden;
+}
+
+.carousel-track{
+    display:flex;
+    transition:.5s ease;
+}
+
+.carousel-track img{
+    width:50rem;
+    height:25rem;
+    flex-shrink:0;
+    object-fit:contain;
+}
+
+.prev, .next{
+    background:none;
+    border: none;
+    font-size:2rem;
 }
