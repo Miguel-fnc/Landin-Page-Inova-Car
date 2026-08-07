@@ -1,6 +1,7 @@
 const track = document.querySelector(".carousel-track");
 const next = document.querySelector(".next");
 const prev = document.querySelector(".prev");
+const images = document.querySelectorAll(".carousel-track img");
 
 let currentIndex = 0;
 const imageWidth = 50;
@@ -13,7 +14,7 @@ function moverCarrusel(){
 next.addEventListener("click", () => {
     currentIndex++;
     moverCarrusel();
-    if (currentIndex === 4){
+    if (currentIndex >= images.length){
         currentIndex = 0;
         moverCarrusel();
     }
@@ -21,9 +22,21 @@ next.addEventListener("click", () => {
 
 prev.addEventListener("click", () => {
     if (currentIndex === 0){
-        currentIndex = 4;
+        currentIndex = images.length;
         moverCarrusel();
     }
     currentIndex--;
     moverCarrusel();
 });
+
+setInterval(() => {
+
+    currentIndex++;
+
+    if(currentIndex >= images.length){
+        currentIndex = 0;
+    }
+
+    moverCarrusel();
+
+},5000);

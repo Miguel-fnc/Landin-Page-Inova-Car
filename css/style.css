@@ -10,8 +10,8 @@ body {
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
-    background: rgba(77, 77, 77, 0.858);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.666);
+    background:#000352;
+    box-shadow: 0 10px 30px rgba(134, 133, 133, 0.666);
 }
 
 .logo {
@@ -21,21 +21,21 @@ body {
 
 #logoItem{
     font-size: 1.875rem;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 .menuItem {
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     transition: all 0.3s ease;
     margin-left: 5rem;
         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 .menuItem:hover {
-    color: rgb(0, 8, 92);
+    color: rgb(184, 190, 254);
     font-size: 1.125rem;
     transform: scale(1.01);
 }
@@ -254,4 +254,295 @@ body {
     background:none;
     border: none;
     font-size:2rem;
+}
+
+.mobil{
+    width: 100%;
+    background: linear-gradient(
+        to right,
+        white 0%,
+        #f0f2f5 15%,
+        #b4b8c4 35%,
+        #1239ba 65%,
+        rgb(0, 8, 92) 100%
+    );
+    margin-top: 9rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 10px 30px rgb(0, 0, 0);
+    height: 50vh ;
+    display: flex;
+}
+
+.mobilImg{
+    flex: 1;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobilImg img{
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+}
+
+.mobilText{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    color: white;
+    position: relative;
+}
+
+.mobilText a{
+    text-decoration: none;
+    border-radius: 5px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    background-color: rgb(1, 11, 120);
+    color: white;
+    position: absolute;
+    margin-top: 15rem;
+}
+
+.mobilText a:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+}
+
+.castrol{
+    width: 100%;
+background: linear-gradient(
+        to right,
+        rgb(251, 251, 251) 0%,
+        #f0f5f3 15%,
+        #b4b8c4 35%,
+        #007639 65%,
+        rgb(0, 77, 40) 100%
+    );
+    margin-bottom: 1rem;
+    box-shadow: 0 10px 30px rgb(0, 0, 0);
+    height: 50vh ;
+    display: flex;
+}
+
+.castrolImg{
+    flex: 1;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+          
+}
+
+.castrolImg img{
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+}
+
+.castrolText{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex: 1;
+    position: relative;
+    color: white;
+}
+
+.castrolText a{
+    text-decoration: none;
+    border-radius: 5px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    background-color: rgb(0, 73, 22);
+    color: white;
+    position: absolute;
+    margin-top: 15rem;
+}
+
+.castrolText a:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+}
+
+.sekurit{
+    width: 100%;
+background: linear-gradient(
+        to right,
+        rgb(255, 255, 255) 0%,
+        #ffffff 15%,
+        #f07e7e 35%,
+        #d20000 65%,
+        rgb(172, 0, 0) 100%
+    );
+    margin-bottom: 1rem;
+    box-shadow: 0 10px 30px rgb(0, 0, 0);
+    height: 50vh ;
+    display: flex;
+}
+
+.sekuritImg{
+    flex: 1;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+          
+}
+
+.sekuritImg img{
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+}
+
+.sekuritText{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex: 1;
+    position: relative;
+    color: white;
+}
+
+.sekuritText a{
+    text-decoration: none;
+    border-radius: 5px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    background-color: rgb(128, 0, 0);
+    color: white;
+    position: absolute;
+    margin-top: 15rem;
+}
+
+.sekuritText a:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+}
+
+.roshfran{
+    width: 100%;
+background: linear-gradient(
+        to right,
+        rgb(251, 251, 251) 0%,
+        #f0f5f3 15%,
+        #b4b8c4 35%,
+        #90b000 65%,
+        rgb(153, 173, 0) 100%
+    );
+    margin-bottom: 1rem;
+    box-shadow: 0 10px 30px rgb(0, 0, 0);
+    height: 50vh ;
+    display: flex;
+}
+
+.roshfranImg{
+    flex: 1;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+          
+}
+
+.roshfranImg img{
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+}
+
+.roshfranText{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex: 1;
+    position: relative;
+    color: white;
+}
+
+.roshfranText a{
+    text-decoration: none;
+    border-radius: 5px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    background-color: rgb(102, 109, 0);
+    color: white;
+    position: absolute;
+    margin-top: 15rem;
+}
+
+.roshfranText a:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+}
+
+.ngk{
+    width: 100%;
+background: linear-gradient(
+        to right,
+        rgb(251, 251, 251) 0%,
+        #f0f5f3 15%,
+        #c4b4b4 35%,
+        #d50000 65%,
+        rgb(180, 0, 0) 100%
+    );
+    margin-bottom: 1rem;
+    box-shadow: 0 10px 30px rgb(0, 0, 0);
+    height: 50vh ;
+    display: flex;
+}
+
+.ngkImg{
+    flex: 1;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+          
+}
+
+.ngkImg img{
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+}
+
+.ngkText{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex: 1;
+    color: white;
+    position: relative;
+}
+
+.ngkText a{
+    text-decoration: none;
+    border-radius: 5px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    background-color: rgb(125, 0, 0);
+    color: white;
+    position: absolute;
+    margin-top: 15rem;
+}
+
+.ngkText a:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease;
 }
