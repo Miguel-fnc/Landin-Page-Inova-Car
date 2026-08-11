@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: rgb(254, 254, 254);
+    background-color: rgb(255, 255, 255);
 }
 
 #navbar {
@@ -12,6 +12,8 @@ body {
     box-sizing: border-box;
     background:#000352;
     box-shadow: 0 10px 30px rgba(134, 133, 133, 0.666);
+    position: fixed;
+    z-index: 1;
 }
 
 .logo {
@@ -31,11 +33,11 @@ body {
     color: rgb(255, 255, 255);
     transition: all 0.3s ease;
     margin-left: 5rem;
-        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 .menuItem:hover {
-    color: rgb(184, 190, 254);
+    color: rgb(255, 255, 255);
     font-size: 1.125rem;
     transform: scale(1.01);
 }
@@ -225,7 +227,6 @@ body {
 /*PAGINA DE PRODUCTOS*/
 
 .productos{
-    margin-top:6rem;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -236,6 +237,7 @@ body {
     width:50rem;
     height:25rem;
     overflow:hidden;
+    margin-top:12rem;
 }
 
 .carousel-track{
@@ -260,7 +262,7 @@ body {
     width: 100%;
     background: linear-gradient(
         to right,
-        white 0%,
+        rgb(255, 255, 255) 0%,
         #f0f2f5 15%,
         #b4b8c4 35%,
         #1239ba 65%,
@@ -379,7 +381,7 @@ background: linear-gradient(
         to right,
         rgb(255, 255, 255) 0%,
         #ffffff 15%,
-        #f07e7e 35%,
+        #b4b8c4 35%,
         #d20000 65%,
         rgb(172, 0, 0) 100%
     );
@@ -545,4 +547,89 @@ background: linear-gradient(
 .ngkText a:hover{
     transform: scale(1.1);
     transition: all 0.5s ease;
+}
+
+/*PAGINA DE PRODUCTOS MOBIL*/
+.productosMobil{
+    display: flex;
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.productoMobilTop{
+    width: 50%;
+    height: 36vh;
+    display: flex;
+    padding: 1rem;
+    background-color: rgb(255, 255, 255);
+    margin-right: 1rem;
+    box-shadow: 0px 0px 10px rgba(54, 54, 54, 0.333);
+    border-radius: 5px;
+    margin-top: 6rem;
+}
+
+.productoMobil{
+    width: 50%;
+    height: 36vh;
+    display: flex;
+    padding: 1rem;
+    background-color: rgb(255, 255, 255);
+    margin-right: 1rem;
+    box-shadow: 0px 0px 10px rgba(54, 54, 54, 0.333);
+    border-radius: 5px;
+}
+
+.fondo{
+    background-color: rgba(230, 230, 230, 0.558);
+}
+
+.productoImg{
+    flex: 1;
+    border-radius: 1rem;;
+    max-width: 25rem;;
+}
+
+.productoImg{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.productoImg img{
+    width: 25rem;
+    height: 14rem;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px #000000;
+}
+
+.productoText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.productoText h2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.productoText h3{
+    font-size: 1rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.productoText p{
+    line-height: 1.6;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.productoText a{
+    color: rgb(65, 65, 252);
+    text-decoration: none;
 }
