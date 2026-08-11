@@ -605,7 +605,7 @@ background: linear-gradient(
     height: 14rem;
     object-fit: cover;
     border-radius: 5px;
-    box-shadow: 0 10px 10px #000000;
+    box-shadow: 0 10px 10px #000000ec;
 }
 
 .productoText{
