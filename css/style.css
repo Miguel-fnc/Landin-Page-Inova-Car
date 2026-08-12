@@ -255,7 +255,8 @@ body {
 .prev, .next{
     background:none;
     border: none;
-    font-size:2rem;
+    font-size:3rem;
+    margin-top: 11rem;
 }
 
 .mobil{
@@ -635,4 +636,87 @@ background: linear-gradient(
 .productoText a{
     color: rgb(65, 65, 252);
     text-decoration: none;
+}
+
+/*CONTACTANOS*/
+
+.cuestionario {
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto {
+    width: 50%;
+    min-height: 50vh;
+    background-color: white;
+    border-radius: 20px;
+    padding: 3rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5rem;
+}
+.contacto h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+
+    font-family: 'Trebuchet MS', sans-serif;
+
+    color: #000352;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.campo label {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: #333;
+}
+
+.campo input {
+    padding: 0.9rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+    transition: 0.3s;
+}
+
+.campo input:focus {
+    border-color: #000352;
+    box-shadow: 0 0 0 3px rgba(0, 3, 82, 0.15);
+}
+
+.btnContacto {
+    margin-top: 1rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #000352;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btnContacto:hover {
+    transform: scale(1.02);
+    background-color: #00085c;
 }
